@@ -1,13 +1,13 @@
 import './App.css'
+import DaisyNav from './components/DaisyNav/DaisyNav'
+import Navbar from './components/Navbar/Navbar'
+Navbar
 
 function App() {
     return (
         <>
-            <h1 className='font-bold text-2xl'>Hello World</h1>
-            <span className="loading loading-ring loading-xs"></span>
-            <span className="loading loading-ring loading-sm"></span>
-            <span className="loading loading-ring loading-md"></span>
-            <span className="loading loading-ring loading-lg"></span>
+            <DaisyNav></DaisyNav>
+            <Navbar></Navbar>
         </>
     )
 }
